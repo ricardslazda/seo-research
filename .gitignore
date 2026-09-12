@@ -1,0 +1,10 @@
+node_modules/
+.env
+.DS_Store
+coverage/
+dist/
+reference/*.json
+sites/*/research.sqlite
+sites/*/research.sqlite-*
+.idea/
+.vscode/

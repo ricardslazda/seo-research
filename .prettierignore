@@ -1,0 +1,6 @@
+node_modules/
+pnpm-lock.yaml
+packages/*/test/fixtures/
+reference/*.json
+sites/
+packages/core/src/db/migrations/

@@ -1,0 +1,33 @@
+{
+    "name": "seo-research",
+    "private": true,
+    "description": "Research what a local-service site should be about before it is built, phase by phase, against the DataForSEO API",
+    "type": "module",
+    "engines": {
+        "node": ">=24"
+    },
+    "scripts": {
+        "seo": "tsx apps/cli/src/index.ts",
+        "test": "vitest run --passWithNoTests",
+        "test:watch": "vitest",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "format": "prettier --write .",
+        "format:check": "prettier --check .",
+        "types:check": "tsc --noEmit",
+        "spell:check": "cspell --no-progress --no-must-find-files --gitignore \"**/*.md\"",
+        "check": "pnpm format:check && pnpm lint && pnpm types:check && pnpm spell:check && pnpm test"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@types/node": "^24.13.3",
+        "cspell": "^10.2.0",
+        "eslint": "^10.9.1",
+        "eslint-config-prettier": "^10.1.8",
+        "prettier": "^3.9.6",
+        "tsx": "^4.23.13",
+        "typescript": "^6.0.3",
+        "typescript-eslint": "^8.69.0",
+        "vitest": "^4.1.11"
+    }
+}
