@@ -1,0 +1,12 @@
+{
+    "name": "@seo/cli",
+    "version": "0.1.0",
+    "private": true,
+    "description": "The seo command: runs each research phase, reads batches for the judgment skills and records decisions",
+    "type": "module",
+    "dependencies": {
+        "@seo/core": "workspace:*",
+        "@seo/dfs-client": "workspace:*",
+        "commander": "^15.0.0"
+    }
+}
