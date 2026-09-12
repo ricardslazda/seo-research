@@ -1,0 +1,93 @@
+# A fictional plumbing business in two fictional towns, with every block of the config stated.
+# Copy the folder to sites/<your-slug>/ and replace what describes this business with yours.
+slug: example
+languages: [en]
+
+# Location codes and coordinates below are placeholders. Run
+#   pnpm seo ref sync --countries GB
+# and take each town's real code from reference/locations.json: the screen refuses a code the
+# reference does not list, and the listings call searches around the coordinates.
+places:
+  - slug: northbridge
+    location_code: 1000001
+    coordinates: { lat: 1.0, lng: 1.0 }
+    name:
+      en: { nom: Northbridge, loc: in Northbridge }
+  - slug: eastfield
+    location_code: 1000002
+    coordinates: { lat: 1.0, lng: 1.2 }
+    # A town whose terms sit below the reporting floor joins one country-level volume call.
+    volume_scope: country
+    name:
+      en: { nom: Eastfield, loc: in Eastfield }
+    slugs: { en: plumber-eastfield }
+
+services:
+  - key: plumber
+    head:
+      en: { term: plumber }
+  - key: boiler-repair
+    head:
+      en: { term: boiler repair }
+  - key: drain-unblocking
+    head:
+      en: { term: drain unblocking }
+    slugs: { en: blocked-drains }
+
+# Each head form names a service form and a place form; the first composes the head keyword of
+# the screen, the rest are variants read beside it: "plumber northbridge", "plumber in northbridge".
+head_forms:
+  en:
+    - { term: term, place: nom }
+    - { term: term, place: loc }
+
+market:
+  country: GB
+  currency: GBP
+  currency_marks: ['£']
+  phone_pattern: '(?:\+44\s?|\b0)\d{2,4}[\s-]?\d{3,4}[\s-]?\d{3,4}'
+  # The fallback is the country code as a domain ending, which for GB is not the one in use.
+  home_tlds: ['.uk']
+  # Referring domains that link only from these countries are ignored as link networks.
+  ignore_countries: []
+
+# The URL words of service and guide pages, per language: /plumbing/boiler-repair.
+paths:
+  en: { services: plumbing, guides: advice }
+
+service_area:
+  base: northbridge
+  free_km: 15
+  per_km: 0.8
+  road_factor: 1.25
+  average_kmh: 45
+  response_promise:
+    en: We call back within fifteen minutes
+  listing_categories: [plumber]
+  listing_radius_km: 10
+  listing_match: 'plumb|heating|drain'
+
+# Patterns are case-insensitive and read the keyword folded to ASCII, Cyrillic transliterated.
+vocabulary:
+  topic_stems: [plumb, boil, drain, pipe, leak, radiator, tap, toilet, cistern]
+  non_distinctive: [boil]
+  brands: [acme, globex]
+  exclusions:
+    jobs: '(\bjobs?\b|vacanc|apprentice|\bsalary\b)'
+    training: '(\bcourses?\b|training|certificat)'
+    diy: '(\bdiy\b|how to fix|how to unblock|yourself)'
+    retail: '(\bbuy\b|\bshop\b|\bcheap\b|supplies|\bparts\b)'
+  out_of_area: '(westmoor|southdale|lakeview)'
+  near: '(near me|nearby|\blocal\b)'
+  modifiers:
+    price: '(\bprices?\b|\bcosts?\b|how much|\bquotes?\b)'
+    urgency: '(emergency|urgent|same day|out of hours)'
+    question: '^(how|what|why|when|where|who|which|can|do|does|is|are|should)\b'
+    comparison: '(\bor\b|versus|compared|\bbetter\b)'
+    material: '(copper|plastic|\blead\b|combi|\bgas\b)'
+  directory_paths: '(/find-a-trade/|/tradespeople/)'
+  guide_paths: '(advice|how-much)'
+
+spend_ask_above_usd: 3
+domain: northbridge-plumbing.example
+business_name: Northbridge Plumbing Co
