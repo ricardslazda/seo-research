@@ -1,0 +1,21 @@
+{
+    "name": "@seo/core",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Site config, SQLite schema, research phases, decisions, queries and reports of the seo research tool",
+    "type": "module",
+    "exports": {
+        ".": "./src/index.ts"
+    },
+    "devDependencies": {
+        "@types/better-sqlite3": "^9.6.0",
+        "drizzle-kit": "^0.31.10"
+    },
+    "dependencies": {
+        "@seo/dfs-client": "workspace:*",
+        "better-sqlite3": "^13.0.3",
+        "drizzle-orm": "^0.45.2",
+        "yaml": "^2.9.0",
+        "zod": "^4.5.4"
+    }
+}
