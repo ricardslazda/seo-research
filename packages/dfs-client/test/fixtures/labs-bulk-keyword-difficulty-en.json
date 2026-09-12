@@ -1,0 +1,46 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2 sec.",
+  "cost": 0.01066,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "00000000-0000-4000-8000-000000000006",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1 sec.",
+      "cost": 0.01066,
+      "result_count": 1,
+      "path": ["v3", "dataforseo_labs", "google", "bulk_keyword_difficulty", "live"],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "bulk_keyword_difficulty",
+        "se_type": "google",
+        "keywords": ["combi boiler repair", "boiler repair cost", "boiler repair northbridge"],
+        "location_code": 2999,
+        "language_code": "en"
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "location_code": 2999,
+          "language_code": "en",
+          "total_count": 3,
+          "items_count": 3,
+          "items": [
+            { "se_type": "google", "keyword": "combi boiler repair", "keyword_difficulty": 4 },
+            { "se_type": "google", "keyword": "boiler repair cost", "keyword_difficulty": 2 },
+            {
+              "se_type": "google",
+              "keyword": "boiler repair northbridge",
+              "keyword_difficulty": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

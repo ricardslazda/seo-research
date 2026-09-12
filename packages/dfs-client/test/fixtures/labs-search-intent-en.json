@@ -1,0 +1,50 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2 sec.",
+  "cost": 0.0014,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "00000000-0000-4000-8000-000000000007",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1 sec.",
+      "cost": 0.0014,
+      "result_count": 1,
+      "path": ["v3", "dataforseo_labs", "google", "search_intent", "live"],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "search_intent",
+        "se_type": "google",
+        "keywords": ["plumbers r us", "boiler service", "how much does boiler repair cost in northbridge"],
+        "language_code": "en"
+      },
+      "result": [
+        {
+          "language_code": "en",
+          "items_count": 3,
+          "items": [
+            {
+              "keyword": "plumbers r us",
+              "keyword_intent": { "label": "navigational", "probability": 0.82 },
+              "secondary_keyword_intents": null
+            },
+            {
+              "keyword": "boiler service",
+              "keyword_intent": { "label": "commercial", "probability": 0.61 },
+              "secondary_keyword_intents": [{ "label": "informational", "probability": 0.3 }]
+            },
+            {
+              "keyword": "how much does boiler repair cost in northbridge",
+              "keyword_intent": { "label": "informational", "probability": 0.94 },
+              "secondary_keyword_intents": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

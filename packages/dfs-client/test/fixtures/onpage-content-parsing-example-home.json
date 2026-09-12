@@ -1,0 +1,193 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2 sec.",
+  "cost": 0.000125,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "00000000-0000-4000-8000-000000000011",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1 sec.",
+      "cost": 0.000125,
+      "result_count": 1,
+      "path": ["v3", "on_page", "content_parsing", "live"],
+      "data": {
+        "api": "on_page",
+        "function": "content_parsing",
+        "url": "https://plumbers-r-us.example/"
+      },
+      "result": [
+        {
+          "crawl_progress": "finished",
+          "crawl_status": null,
+          "items_count": 1,
+          "items": [
+            {
+              "type": "content_parsing_element",
+              "fetch_time": "2026-09-02 16:00:00 +00:00",
+              "status_code": 200,
+              "page_content": {
+                "header": {
+                  "primary_content": null,
+                  "secondary_content": [
+                    {
+                      "text": "Boiler Repair",
+                      "url": "https://plumbers-r-us.example/services/boiler-repair/",
+                      "urls": [
+                        {
+                          "url": "https://plumbers-r-us.example/services/boiler-repair/",
+                          "anchor_text": "Boiler Repair"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Drain Unblocking",
+                      "url": "https://plumbers-r-us.example/services/drain-unblocking/",
+                      "urls": [
+                        {
+                          "url": "https://plumbers-r-us.example/services/drain-unblocking/",
+                          "anchor_text": "Drain Unblocking"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Emergency Plumber",
+                      "url": "https://plumbers-r-us.example/services/emergency-plumber/",
+                      "urls": [
+                        {
+                          "url": "https://plumbers-r-us.example/services/emergency-plumber/",
+                          "anchor_text": "Emergency Plumber"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Prices",
+                      "url": "https://plumbers-r-us.example/prices/",
+                      "urls": [
+                        {
+                          "url": "https://plumbers-r-us.example/prices/",
+                          "anchor_text": "Prices"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Contact",
+                      "url": "https://plumbers-r-us.example/contact/",
+                      "urls": [
+                        {
+                          "url": "https://plumbers-r-us.example/contact/",
+                          "anchor_text": "Contact"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "footer": {
+                  "primary_content": [
+                    {
+                      "text": "Plumbers R Us, fixing pipes in Northbridge and Eastfield since 2009.",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Privacy",
+                      "url": "https://plumbers-r-us.example/privacy/",
+                      "urls": [
+                        {
+                          "url": "https://plumbers-r-us.example/privacy/",
+                          "anchor_text": "Privacy"
+                        }
+                      ]
+                    }
+                  ],
+                  "secondary_content": null
+                },
+                "main_topic": [
+                  {
+                    "h_title": "Plumbers R Us: Plumbers in Northbridge",
+                    "level": 1,
+                    "primary_content": [
+                      {
+                        "text": "Boiler broken, drain blocked or a pipe leaking into the kitchen? Book a visit and an engineer is with you the same day.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null
+                  },
+                  {
+                    "h_title": "Fast, Insured Plumbing Across Northbridge",
+                    "level": 2,
+                    "primary_content": [
+                      {
+                        "text": "We repair and service every common boiler, clear blocked drains with jetting equipment and fix leaks behind walls without tearing the room apart.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Every job starts with a fixed quote. You pay for the work agreed and nothing else, and every repair carries a twelve month guarantee.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null
+                  }
+                ],
+                "secondary_topic": [
+                  {
+                    "h_title": "Services",
+                    "level": 2,
+                    "primary_content": [
+                      {
+                        "text": "Boiler repair from $95, drain unblocking from $80.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "See all prices",
+                        "url": "https://plumbers-r-us.example/prices/",
+                        "urls": [
+                          {
+                            "url": "https://plumbers-r-us.example/prices/",
+                            "anchor_text": "See all prices"
+                          }
+                        ]
+                      }
+                    ],
+                    "secondary_content": null
+                  },
+                  {
+                    "h_title": "How much does a call-out cost?",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "There is no call-out fee within Northbridge.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null
+                  }
+                ],
+                "ratings": [
+                  {
+                    "name": null,
+                    "rating_value": 4.8,
+                    "max_rating_value": 5,
+                    "rating_count": 36,
+                    "relative_rating": 0.96
+                  }
+                ]
+              },
+              "page_as_markdown": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

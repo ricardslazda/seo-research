@@ -1,0 +1,315 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2 sec.",
+  "cost": 0.0703,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "00000000-0000-4000-8000-000000000005",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1 sec.",
+      "cost": 0.0703,
+      "result_count": 1,
+      "path": ["v3", "dataforseo_labs", "google", "keyword_ideas", "live"],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "keyword_ideas",
+        "se_type": "google",
+        "limit": 500,
+        "closely_variants": false,
+        "order_by": ["keyword_info.search_volume,desc"],
+        "keywords": ["boiler repair", "plumber"],
+        "location_code": 2999,
+        "language_code": "en"
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "seed_keywords": ["boiler repair", "plumber"],
+          "location_code": 2999,
+          "language_code": "en",
+          "total_count": 41200,
+          "items_count": 10,
+          "offset": 0,
+          "offset_token": null,
+          "items": [
+            {
+              "se_type": "google",
+              "keyword": "weather tomorrow",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 9900,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 2
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "northbridge bus timetable",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 9000,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "football results",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 8100,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 2
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "cinema times northbridge",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 7200,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "bank holiday dates",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 6300,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "pizza delivery northbridge",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 5400,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "train times to eastfield",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 4500,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "job vacancies northbridge",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 3600,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "plumber salary",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 2700,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 2
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "boiler repair",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 1800,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 2
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

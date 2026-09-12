@@ -1,0 +1,62 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2 sec.",
+  "cost": 0,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "00000000-0000-4000-8000-000000000014",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1 sec.",
+      "cost": 0,
+      "result_count": 2,
+      "path": ["v3", "dataforseo_labs", "locations_and_languages"],
+      "data": { "api": "dataforseo_labs", "function": "locations_and_languages" },
+      "result": [
+        {
+          "location_code": 2998,
+          "location_name": "Otherland",
+          "location_code_parent": null,
+          "country_iso_code": "XX",
+          "location_type": "Country",
+          "available_languages": [
+            {
+              "available_sources": ["google"],
+              "language_name": "English",
+              "language_code": "en",
+              "keywords": 120000,
+              "serps": 9000
+            },
+            {
+              "available_sources": ["google"],
+              "language_name": "Spanish",
+              "language_code": "es",
+              "keywords": 120000,
+              "serps": 9000
+            }
+          ]
+        },
+        {
+          "location_code": 2999,
+          "location_name": "Testland",
+          "location_code_parent": null,
+          "country_iso_code": "ZZ",
+          "location_type": "Country",
+          "available_languages": [
+            {
+              "available_sources": ["google"],
+              "language_name": "English",
+              "language_code": "en",
+              "keywords": 120000,
+              "serps": 9000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2 sec.",
+  "cost": 0.0461,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "00000000-0000-4000-8000-000000000004",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1 sec.",
+      "cost": 0.0461,
+      "result_count": 1,
+      "path": ["v3", "dataforseo_labs", "google", "keyword_suggestions", "live"],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "keyword_suggestions",
+        "se_type": "google",
+        "limit": 300,
+        "include_seed_keyword": true,
+        "order_by": ["keyword_info.search_volume,desc"],
+        "keyword": "boiler repair",
+        "location_code": 2999,
+        "language_code": "en"
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "seed_keyword": "boiler repair",
+          "seed_keyword_data": null,
+          "location_code": 2999,
+          "language_code": "en",
+          "total_count": 8,
+          "items_count": 8,
+          "offset": 0,
+          "offset_token": null,
+          "items": [
+            {
+              "se_type": "google",
+              "keyword": "boiler repair near me",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 880,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": 8,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-08-27 02:00:00 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "boiler repair",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 590,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": 12,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 2
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-08-27 02:00:00 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "combi boiler repair",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 170,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "boiler repair cost",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 140,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "gas boiler repair",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 110,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": 6,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-08-27 02:00:00 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "emergency boiler repair",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 90,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": 5,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "transactional",
+                "foreign_intent": null,
+                "last_updated_time": "2026-08-27 02:00:00 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "cheap boiler repair",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": 0.5,
+                "competition_level": "MEDIUM",
+                "cpc": 2,
+                "search_volume": 30,
+                "low_top_of_page_bid": 0.6,
+                "high_top_of_page_bid": 2.4,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": 3,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-08-27 02:00:00 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "boiler repair northbridge",
+              "location_code": 2999,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                "competition": null,
+                "competition_level": null,
+                "cpc": null,
+                "search_volume": null,
+                "low_top_of_page_bid": null,
+                "high_top_of_page_bid": null,
+                "monthly_searches": null
+              },
+              "keyword_properties": {
+                "se_type": "google",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

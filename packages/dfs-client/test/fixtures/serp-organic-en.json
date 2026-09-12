@@ -1,0 +1,230 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "00000000-0000-4000-8000-000000000002",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": ["v3", "serp", "google", "organic", "live", "advanced"],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "plumber northbridge",
+        "location_code": 1001001,
+        "language_code": "en",
+        "device": "mobile",
+        "os": "android",
+        "depth": 20
+      },
+      "result": [
+        {
+          "keyword": "plumber northbridge",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1001001,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=plumber%20northbridge&hl=en",
+          "datetime": "2026-09-02 09:00:00 +00:00",
+          "spell": null,
+          "item_types": ["organic", "local_pack", "people_also_search", "people_also_ask"],
+          "se_results_count": 0,
+          "pages_count": 2,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "domain": "directory-one.example",
+              "title": "Plumbers in Northbridge - Directory One",
+              "url": "https://directory-one.example/category/plumbers/northbridge",
+              "breadcrumb": "https://directory-one.example",
+              "description": "Compare 24 plumbers in Northbridge by rating and price.",
+              "rating": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "domain": "www.classifieds-hub.example",
+              "title": "Plumbing - Classified ads",
+              "url": "https://www.classifieds-hub.example/services/plumbing/",
+              "breadcrumb": "https://www.classifieds-hub.example",
+              "description": "Plumbing services offered in your area.",
+              "rating": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "title": "Plumbers R Us",
+              "description": "Open now",
+              "domain": "www.plumbers-r-us.example",
+              "url": "https://www.plumbers-r-us.example/",
+              "is_paid": false,
+              "rating": { "rating_type": "Max5", "value": 4.6, "votes_count": 48, "rating_max": 5 },
+              "cid": "1000000000000000001"
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "title": "Northbridge Heating",
+              "description": "Open now",
+              "domain": "northbridge-heating.example",
+              "url": "https://northbridge-heating.example/",
+              "is_paid": false,
+              "rating": { "rating_type": "Max5", "value": 5, "votes_count": 21, "rating_max": 5 },
+              "cid": "1000000000000000002"
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "domain": "www.plumbers-r-us.example",
+              "title": "Plumber in Northbridge | Plumbers R Us",
+              "url": "https://www.plumbers-r-us.example/plumber-northbridge/",
+              "breadcrumb": "https://www.plumbers-r-us.example",
+              "description": "Local plumbers for leaks, boilers and drains across Northbridge.",
+              "rating": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "title": "People also search for",
+              "items": [
+                "emergency plumber northbridge",
+                "boiler repair northbridge",
+                "plumber eastfield",
+                "drain unblocking near me"
+              ]
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "domain": "drainpros.example",
+              "title": "Plumbing prices | Drain Pros",
+              "url": "https://drainpros.example/prices/",
+              "breadcrumb": "https://drainpros.example",
+              "description": "What a plumber costs, job by job.",
+              "rating": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How much does a plumber cost in Northbridge?",
+                  "seed_question": null,
+                  "expanded_element": null
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Do plumbers charge a call-out fee?",
+                  "seed_question": null,
+                  "expanded_element": null
+                }
+              ]
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "domain": "www.fixit-plumbing.example",
+              "title": "Emergency plumber | Fixit Plumbing",
+              "url": "https://www.fixit-plumbing.example/emergency-plumber/",
+              "breadcrumb": "https://www.fixit-plumbing.example",
+              "description": "Burst pipe or no hot water? We come out day and night.",
+              "rating": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "domain": "www.trade-finder.example",
+              "title": "Plumbers near Northbridge - Trade Finder",
+              "url": "https://www.trade-finder.example/companies/plumbers/northbridge",
+              "breadcrumb": "https://www.trade-finder.example",
+              "description": "Reviewed plumbing companies near you.",
+              "rating": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "domain": "www.local-plumber.example",
+              "title": "Local Plumber",
+              "url": "https://www.local-plumber.example/",
+              "breadcrumb": "https://www.local-plumber.example",
+              "description": "Family plumbers serving the town.",
+              "rating": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "domain": "directory-one.example",
+              "title": "Boiler repair in Northbridge - Directory One",
+              "url": "https://directory-one.example/category/boiler-repair/northbridge",
+              "breadcrumb": "https://directory-one.example",
+              "description": "Compare boiler engineers in Northbridge.",
+              "rating": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "domain": "www.classifieds-hub.example",
+              "title": "Plumbing jobs - Classified ads",
+              "url": "https://www.classifieds-hub.example/jobs/plumbing/",
+              "breadcrumb": "https://www.classifieds-hub.example",
+              "description": "Plumbing vacancies and apprenticeships.",
+              "rating": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

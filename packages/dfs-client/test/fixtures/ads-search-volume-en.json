@@ -1,0 +1,131 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2 sec.",
+  "cost": 0.09,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "00000000-0000-4000-8000-000000000001",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1 sec.",
+      "cost": 0.09,
+      "result_count": 4,
+      "path": ["v3", "keywords_data", "google_ads", "search_volume", "live"],
+      "data": {
+        "api": "keywords_data",
+        "function": "search_volume",
+        "se": "google_ads",
+        "location_code": 1001001,
+        "language_code": "en",
+        "keywords": [
+          "plumber",
+          "plumber northbridge",
+          "plumbers northbridge",
+          "plumbr",
+          "plumber in northbridge"
+        ]
+      },
+      "result": [
+        {
+          "keyword": "plumber",
+          "spell": null,
+          "location_code": 1001001,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 58,
+          "search_volume": 320,
+          "low_top_of_page_bid": 0.6,
+          "high_top_of_page_bid": 2.2,
+          "cpc": 2.1,
+          "monthly_searches": [
+            { "year": 2026, "month": 7, "search_volume": 320 },
+            { "year": 2026, "month": 6, "search_volume": 260 },
+            { "year": 2026, "month": 5, "search_volume": 260 },
+            { "year": 2026, "month": 4, "search_volume": 320 },
+            { "year": 2026, "month": 3, "search_volume": 390 },
+            { "year": 2026, "month": 2, "search_volume": 390 },
+            { "year": 2026, "month": 1, "search_volume": 480 },
+            { "year": 2025, "month": 12, "search_volume": 390 },
+            { "year": 2025, "month": 11, "search_volume": 320 },
+            { "year": 2025, "month": 10, "search_volume": 260 },
+            { "year": 2025, "month": 9, "search_volume": 260 },
+            { "year": 2025, "month": 8, "search_volume": 260 }
+          ]
+        },
+        {
+          "keyword": "plumber northbridge",
+          "spell": null,
+          "location_code": 1001001,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 55,
+          "search_volume": 210,
+          "low_top_of_page_bid": 0.52,
+          "high_top_of_page_bid": 2.34,
+          "cpc": 2.49,
+          "monthly_searches": [
+            { "year": 2026, "month": 7, "search_volume": 210 },
+            { "year": 2026, "month": 6, "search_volume": 170 },
+            { "year": 2026, "month": 5, "search_volume": 170 },
+            { "year": 2026, "month": 4, "search_volume": 210 },
+            { "year": 2026, "month": 3, "search_volume": 260 },
+            { "year": 2026, "month": 2, "search_volume": 260 },
+            { "year": 2026, "month": 1, "search_volume": 320 },
+            { "year": 2025, "month": 12, "search_volume": 260 },
+            { "year": 2025, "month": 11, "search_volume": 210 },
+            { "year": 2025, "month": 10, "search_volume": 170 },
+            { "year": 2025, "month": 9, "search_volume": 170 },
+            { "year": 2025, "month": 8, "search_volume": 170 }
+          ]
+        },
+        {
+          "keyword": "plumbers northbridge",
+          "spell": null,
+          "location_code": 1001001,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "plumbr",
+          "spell": "plumber",
+          "location_code": 1001001,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 58,
+          "search_volume": 320,
+          "low_top_of_page_bid": 0.6,
+          "high_top_of_page_bid": 2.2,
+          "cpc": 2.1,
+          "monthly_searches": [
+            { "year": 2026, "month": 7, "search_volume": 320 },
+            { "year": 2026, "month": 6, "search_volume": 260 },
+            { "year": 2026, "month": 5, "search_volume": 260 },
+            { "year": 2026, "month": 4, "search_volume": 320 },
+            { "year": 2026, "month": 3, "search_volume": 390 },
+            { "year": 2026, "month": 2, "search_volume": 390 },
+            { "year": 2026, "month": 1, "search_volume": 480 },
+            { "year": 2025, "month": 12, "search_volume": 390 },
+            { "year": 2025, "month": 11, "search_volume": 320 },
+            { "year": 2025, "month": 10, "search_volume": 260 },
+            { "year": 2025, "month": 9, "search_volume": 260 },
+            { "year": 2025, "month": 8, "search_volume": 260 }
+          ]
+        }
+      ]
+    }
+  ]
+}

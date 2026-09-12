@@ -1,0 +1,103 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2 sec.",
+  "cost": 0.0223,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "00000000-0000-4000-8000-000000000010",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1 sec.",
+      "cost": 0.0223,
+      "result_count": 1,
+      "path": ["v3", "dataforseo_labs", "google", "relevant_pages", "live"],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "relevant_pages",
+        "se_type": "google",
+        "limit": 100,
+        "item_types": ["organic"],
+        "order_by": ["metrics.organic.etv,desc"],
+        "target": "plumbers-r-us.example",
+        "location_code": 2999,
+        "language_code": "en"
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "target": "plumbers-r-us.example",
+          "location_code": 2999,
+          "language_code": "en",
+          "total_count": 4,
+          "items_count": 4,
+          "items": [
+            {
+              "se_type": "google",
+              "page_address": "https://plumbers-r-us.example/services/boiler-repair/",
+              "metrics": {
+                "organic": {
+                  "pos_1": 0,
+                  "pos_2_3": 0,
+                  "pos_4_10": 1,
+                  "etv": 14.2,
+                  "count": 4,
+                  "estimated_paid_traffic_cost": 21.3
+                },
+                "paid": null
+              }
+            },
+            {
+              "se_type": "google",
+              "page_address": "https://plumbers-r-us.example/services/drain-unblocking/",
+              "metrics": {
+                "organic": {
+                  "pos_1": 0,
+                  "pos_2_3": 0,
+                  "pos_4_10": 0,
+                  "etv": 6.1,
+                  "count": 2,
+                  "estimated_paid_traffic_cost": 9.15
+                },
+                "paid": null
+              }
+            },
+            {
+              "se_type": "google",
+              "page_address": "https://plumbers-r-us.example/",
+              "metrics": {
+                "organic": {
+                  "pos_1": 1,
+                  "pos_2_3": 0,
+                  "pos_4_10": 0,
+                  "etv": 4.4,
+                  "count": 1,
+                  "estimated_paid_traffic_cost": 6.6
+                },
+                "paid": null
+              }
+            },
+            {
+              "se_type": "google",
+              "page_address": "https://plumbers-r-us.example/blog/how-to-bleed-a-radiator/",
+              "metrics": {
+                "organic": {
+                  "pos_1": 0,
+                  "pos_2_3": 0,
+                  "pos_4_10": 0,
+                  "etv": 1.2,
+                  "count": 1,
+                  "estimated_paid_traffic_cost": 1.8
+                },
+                "paid": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2 sec.",
+  "cost": 0.132,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "00000000-0000-4000-8000-000000000009",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1 sec.",
+      "cost": 0.132,
+      "result_count": 1,
+      "path": ["v3", "dataforseo_labs", "google", "ranked_keywords", "live"],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "ranked_keywords",
+        "se_type": "google",
+        "limit": 1000,
+        "item_types": ["organic"],
+        "target": "plumbers-r-us.example",
+        "location_code": 2999,
+        "language_code": "en",
+        "order_by": ["ranked_serp_element.serp_item.etv,desc"]
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "target": "plumbers-r-us.example",
+          "location_code": 2999,
+          "language_code": "en",
+          "total_count": 5,
+          "items_count": 5,
+          "metrics": {
+            "organic": {
+              "pos_1": 1,
+              "pos_2_3": 0,
+              "pos_4_10": 1,
+              "pos_11_20": 2,
+              "pos_21_30": 0,
+              "pos_31_40": 1,
+              "etv": 31.1,
+              "count": 5,
+              "estimated_paid_traffic_cost": 46.65
+            },
+            "paid": null
+          },
+          "metrics_absolute": null,
+          "items": [
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "boiler repair",
+                "location_code": 2999,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                  "competition": 0.5,
+                  "competition_level": "MEDIUM",
+                  "cpc": 2,
+                  "search_volume": 590,
+                  "low_top_of_page_bid": 0.6,
+                  "high_top_of_page_bid": 2.4,
+                  "monthly_searches": null
+                },
+                "keyword_properties": {
+                  "se_type": "google",
+                  "keyword_difficulty": 12,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 2
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-08-27 02:00:00 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 8,
+                  "rank_absolute": 8,
+                  "position": "left",
+                  "domain": "plumbers-r-us.example",
+                  "title": "Plumbers R Us",
+                  "url": "https://plumbers-r-us.example/services/boiler-repair/",
+                  "relative_url": "/services/boiler-repair/",
+                  "etv": 14.2,
+                  "estimated_paid_traffic_cost": 21.3
+                },
+                "keyword_difficulty": 12,
+                "is_lost": false
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "plumber northbridge",
+                "location_code": 2999,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                  "competition": 0.5,
+                  "competition_level": "MEDIUM",
+                  "cpc": 2,
+                  "search_volume": 210,
+                  "low_top_of_page_bid": 0.6,
+                  "high_top_of_page_bid": 2.4,
+                  "monthly_searches": null
+                },
+                "keyword_properties": {
+                  "se_type": "google",
+                  "keyword_difficulty": 9,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 2
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-08-27 02:00:00 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 12,
+                  "rank_absolute": 12,
+                  "position": "left",
+                  "domain": "plumbers-r-us.example",
+                  "title": "Plumbers R Us",
+                  "url": "https://plumbers-r-us.example/",
+                  "relative_url": "/",
+                  "etv": 4.1,
+                  "estimated_paid_traffic_cost": 6.15
+                },
+                "keyword_difficulty": 9,
+                "is_lost": false
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "drain unblocking",
+                "location_code": 2999,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                  "competition": 0.5,
+                  "competition_level": "MEDIUM",
+                  "cpc": 2,
+                  "search_volume": 170,
+                  "low_top_of_page_bid": 0.6,
+                  "high_top_of_page_bid": 2.4,
+                  "monthly_searches": null
+                },
+                "keyword_properties": {
+                  "se_type": "google",
+                  "keyword_difficulty": 7,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 2
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-08-27 02:00:00 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 15,
+                  "rank_absolute": 15,
+                  "position": "left",
+                  "domain": "plumbers-r-us.example",
+                  "title": "Plumbers R Us",
+                  "url": "https://plumbers-r-us.example/services/drain-unblocking/",
+                  "relative_url": "/services/drain-unblocking/",
+                  "etv": 2.3,
+                  "estimated_paid_traffic_cost": 3.45
+                },
+                "keyword_difficulty": 7,
+                "is_lost": false
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "how to bleed a radiator",
+                "location_code": 2999,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                  "competition": 0.5,
+                  "competition_level": "MEDIUM",
+                  "cpc": 2,
+                  "search_volume": 880,
+                  "low_top_of_page_bid": 0.6,
+                  "high_top_of_page_bid": 2.4,
+                  "monthly_searches": null
+                },
+                "keyword_properties": {
+                  "se_type": "google",
+                  "keyword_difficulty": 3,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-08-27 02:00:00 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 31,
+                  "rank_absolute": 31,
+                  "position": "left",
+                  "domain": "plumbers-r-us.example",
+                  "title": "Plumbers R Us",
+                  "url": "https://plumbers-r-us.example/blog/how-to-bleed-a-radiator/",
+                  "relative_url": "/blog/how-to-bleed-a-radiator/",
+                  "etv": 1.2,
+                  "estimated_paid_traffic_cost": 1.8
+                },
+                "keyword_difficulty": 3,
+                "is_lost": false
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "plumbers r us",
+                "location_code": 2999,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-08-27 02:00:00 +00:00",
+                  "competition": 0.5,
+                  "competition_level": "MEDIUM",
+                  "cpc": 2,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": 0.6,
+                  "high_top_of_page_bid": 2.4,
+                  "monthly_searches": null
+                },
+                "keyword_properties": {
+                  "se_type": "google",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 3
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-08-27 02:00:00 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "domain": "plumbers-r-us.example",
+                  "title": "Plumbers R Us",
+                  "url": "https://plumbers-r-us.example/",
+                  "relative_url": "/",
+                  "etv": 9.3,
+                  "estimated_paid_traffic_cost": 13.95
+                },
+                "keyword_difficulty": 0,
+                "is_lost": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
